@@ -26,6 +26,7 @@ x=0
 for(i in 0:1000){
   x=x+i
 }
+x
 ```
 
 
@@ -35,6 +36,7 @@ y=0
 for(i in seq(0,1000,by=2)){
   y=y+i
 }
+y
 ```
 
 
@@ -73,6 +75,7 @@ for(i in 1:6){
     }
   }
 }
+survey.clean
 ```
 
 
@@ -86,6 +89,6 @@ for(i in 1:6){
     }
   }
 }
-
+survey
 ```
 
